@@ -1,5 +1,5 @@
 <?php
-namespace TYPO3\CMS\Lang\Exception;
+namespace TYPO3\CMS\Lang;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -14,11 +14,11 @@ namespace TYPO3\CMS\Lang\Exception;
  * The TYPO3 project - inspiring people to share!
  */
 
-use TYPO3\CMS\Lang\Exception;
+use TYPO3\CMS\Core\Exception as CoreException;
 
 /**
- * An exception when something is wrong within parsing the xml
+ * A generic Lang exception
  */
-class XmlParser extends Exception
+class Exception extends CoreException
 {
 }
